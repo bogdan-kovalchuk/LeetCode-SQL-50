@@ -12,3 +12,4 @@ SELECT
     'High Salary' AS category,
     COUNT(CASE WHEN income > 50000 THEN 1 END) AS accounts_count
 FROM Accounts;
+
