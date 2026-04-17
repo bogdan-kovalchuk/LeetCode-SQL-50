@@ -17,3 +17,4 @@ WHERE mr.created_at >= '2020-02-01'
 GROUP BY mr.movie_id, m.title
 ORDER BY AVG(mr.rating) DESC, m.title
 LIMIT 1);
+
