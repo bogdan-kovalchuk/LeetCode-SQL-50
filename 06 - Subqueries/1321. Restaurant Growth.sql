@@ -29,3 +29,4 @@ SELECT
 FROM weekly_revenue
 WHERE day_number >= 7
 ORDER BY visited_on;
+
