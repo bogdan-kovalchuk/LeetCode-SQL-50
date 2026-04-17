@@ -9,3 +9,4 @@ FROM (
 WHERE total_weight <= 1000
 ORDER BY turn DESC
 LIMIT 1;
+
